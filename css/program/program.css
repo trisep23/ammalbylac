@@ -1,0 +1,71 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: linear-gradient(to bottom, #0d5c22, #4ca744);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header .container h1 {
+    margin: 0;
+}
+
+.program-section {
+    padding: 40px 20px;
+    text-align: center;
+    background: #f9f9f9;
+}
+
+.program-section h2 {
+    font-size: 1.8rem;
+    color: #0d5c22;
+    margin-bottom: 20px;
+}
+
+.program-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: center;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.card h3 {
+    padding: 15px;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+footer {
+    background-color: #0d5c22;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+}

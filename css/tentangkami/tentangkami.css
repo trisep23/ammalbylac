@@ -1,0 +1,65 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    background: linear-gradient(to bottom, #0d5c22, #4ca744);
+    color: white;
+    padding: 20px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Card styles */
+.card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    background: #ffffff;
+    text-align: center; /* Rata tengah horizontal */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Rata tengah vertikal */
+    align-items: center;
+    transition: transform 0.3s, box-shadow 0.3s; /* Animasi hover */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Efek zoom */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* Efek bayangan */
+}
+
+/* Card title styles */
+.card-title {
+    font-size: 1.25rem;
+    color: #007b5e; /* Hijau tua */
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #333;
+    margin: 0;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    font-size: 14px;
+    color: #ffffff;
+    padding: 10px 0;
+    background-color: #0d5c22;
+    border-top: 1px solid #ddd;
+}
+
+/* Navbar styles */
+.nav-link:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,60 @@
+header {
+    background: linear-gradient(to bottom, #0d5c22, #4ca744);
+    color: white;
+    padding: 20px 0;
+}
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+html, body {
+    height: 100%; /* Memastikan halaman memiliki tinggi penuh */
+    margin: 0; /* Menghilangkan margin default */
+}
+body {
+    display: flex;
+    flex-direction: column; /* Mengatur elemen anak secara vertikal */
+    justify-content: space-between; /* Memastikan jarak antara konten dan footer */
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 4px 8px rgb(3, 130, 7);
+    transition: transform 0.3s ease;
+}
+.nav-link {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    color: black;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1.1rem;
+    color: #000000;
+}
+footer {
+    text-align: center;
+    font-size: 14px;
+    color: #ffffff;
+    padding: 10px 0;
+    background-color: #0d5c22;
+    border-top: 1px solid #ddd;
+}

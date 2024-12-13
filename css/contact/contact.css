@@ -1,0 +1,216 @@
+/* Header */
+header {
+    background: linear-gradient(to bottom, #0d5c22, #4ca744);
+    color: white;
+    padding: 20px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+/* Dropdown menu */
+.nav-item:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    color: white;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-radius: 5px;
+    min-width: 150px;
+    box-shadow: 0 4px 6px rgb(238, 238, 238);
+}
+
+.dropdown-item {
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(6, 6, 6);
+    display: block;
+}
+
+.dropdown-item:hover {
+    background-color: #17b040;
+}
+
+/* Carousel */
+.carousel-item img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+.carousel-item {
+    position: relative;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 40px;
+    display: inline-block;
+}
+
+.carousel-caption h5 {
+    font-size: 2rem;
+}
+
+.carousel-caption p {
+    font-size: 1.25rem;
+}
+
+.carousel-caption .btn {
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    font-size: 14px;
+    color: #ffffff;
+    padding: 10px 0;
+    background-color: #0d5c22;
+    border-top: 1px solid #ddd;
+}
+
+/* Hubungi Kami - Contact Section */
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 50px auto;
+    gap: 20px;
+}
+
+.contact-info {
+    flex: 1;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info h1 {
+    color: #2ecc71;
+}
+
+.contact-info h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.contact-info p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.info-box .info-item {
+    margin: 20px 0;
+}
+
+.info-box h3 {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.info-box p {
+    font-size: 14px;
+    color: #666;
+}
+
+.contact-form {
+    flex: 1;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form label {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.contact-form span {
+    color: red;
+    font-size: 12px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.contact-form button {
+    background-color: #2ecc71;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #27ae60;
+}
+.social-media {
+    margin-top: 20px;
+}
+
+.social-media {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-media a {
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.social-logo {
+    width: 40px; /* Atur ukuran logo */
+    height: 40px; /* Menjaga ukuran konsisten */
+    transition: transform 0.3s ease;
+}
+
+.social-logo:hover {
+    transform: scale(1.2); /* Efek zoom saat hover */
+}
+

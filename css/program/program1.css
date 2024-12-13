@@ -1,0 +1,108 @@
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(to bottom, #0d5c22, #4ca744);
+    color: white;
+    padding: 20px 0;
+}
+
+header h2 {
+    font-size: 1.5rem;
+}
+
+/* Navigasi */
+.nav .nav-link {
+    font-size: 1rem;
+    margin-right: 15px;
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    color: black;
+}
+/* Main Content Styling */
+.content h2 {
+    font-size: 2rem;
+    color: #004d00;
+}
+
+.program-details {
+    list-style-type: disc;
+    padding-left: 20px;
+    font-size: 1rem;
+}
+
+.main-image {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 100%;
+    height: auto;
+}
+.program-grid a.card {
+    display: flex;
+    flex-direction: column; /* Susunan vertikal: gambar di atas, teks di bawah */
+    align-items: center;    /* Rata tengah horizontal */
+    justify-content: center; /* Rata tengah vertikal */
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: justify;     /* Rata tengah teks */
+    transition: transform 0.3s, box-shadow 0.3s;
+    padding: 10px;          /* Tambahkan padding agar lebih rapi */
+}
+.program-grid a.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px; /* Jarak antara gambar dan teks */
+}
+.program-grid a.card h3 {
+    font-size: 1.2rem;
+    color: #333;
+    margin: 0; /* Hilangkan margin default */
+}
+/* Footer */
+.footer p {
+    margin: 0;
+    font-size: 14px;
+}
+  /* Dropdown menu akan muncul saat hover */
+  .nav-item:hover .dropdown-menu {
+    display: block;  /* Menampilkan dropdown ketika item dihover */
+}
+
+/* Pastikan dropdown tersembunyi secara default */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    color: white;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-radius: 5px;
+    min-width: 150px;
+    box-shadow: 0 4px 6px rgb(238, 238, 238);
+}
+
+.dropdown-item {
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(6, 6, 6);
+    display: block;
+}
+
+.dropdown-item:hover {
+    background-color: #17b040;  /* Ganti warna saat hover */
+}

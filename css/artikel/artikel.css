@@ -1,0 +1,90 @@
+header {
+    background: linear-gradient(to bottom, #0d5c22, #4ca744);
+    color: white;
+    padding: 20px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    color: black;
+}
+/* Artikel Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+header {
+    background-color: #0d5c22;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.article-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+    max-height: 80vh; /* Membatasi tinggi kontainer agar bisa scroll */
+    padding: 10px;
+    gap: 15px; /* Memberi jarak antar gambar */
+}
+
+.article-image {
+    width: 100%; /* Gambar akan responsif mengikuti lebar kontainer */
+    max-width: 800px; /* Batas lebar maksimal gambar */
+    height: auto; /* Menjaga proporsi gambar */
+    border-radius: 8px; /* Menambahkan sudut membulat */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Menambahkan bayangan */
+}
+footer {
+    text-align: center;
+    font-size: 14px;
+    color: #ffffff;
+    padding: 10px 0;
+    background-color: #0d5c22;
+}
+  /* Dropdown menu akan muncul saat hover */
+.nav-item:hover .dropdown-menu {
+    display: block;  /* Menampilkan dropdown ketika item dihover */
+}
+
+/* Pastikan dropdown tersembunyi secara default */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    color: white;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-radius: 5px;
+    min-width: 150px;
+    box-shadow: 0 4px 6px rgb(238, 238, 238);
+}
+
+.dropdown-item {
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(6, 6, 6);
+    display: block;
+}
+
+.dropdown-item:hover {
+    background-color: #17b040;  /* Ganti warna saat hover */
+}

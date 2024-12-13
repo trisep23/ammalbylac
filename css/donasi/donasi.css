@@ -1,0 +1,122 @@
+.nav-link {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    color: black;
+}
+/* Styling untuk konten utama yang akan berada di tengah */
+main {
+    display: flex;
+    justify-content: center; /* Untuk menempatkan konten secara horizontal di tengah */
+    align-items: center; /* Untuk menempatkan konten secara vertikal di tengah */
+    height: 80vh; /* Menggunakan tinggi 80% dari viewport */
+    padding: 20px;
+}
+
+html, body {
+    height: 100%; /* Memastikan halaman memiliki tinggi penuh */
+    margin: 0; /* Menghilangkan margin default */
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 20px;
+}
+
+.left-section, .right-section {
+    flex: 1;
+    min-width: 300px;
+}
+
+.left-section {
+    max-width: 500px;
+}
+
+.right-section {
+    max-width: 400px;
+    margin-left: auto;
+}
+
+.qr-code img {
+    width: 200px;
+    height: auto;
+    margin: 10px 0;
+    display: block;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form input, form textarea, form select, form button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+form button {
+    background-color: #bf2121;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #060202;
+}
+.nav-link {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    color: black;
+}
+ /* Dropdown menu akan muncul saat hover */
+ .nav-item:hover .dropdown-menu {
+    display: block;  /* Menampilkan dropdown ketika item dihover */
+}
+
+/* Pastikan dropdown tersembunyi secara default */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    color: white;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-radius: 5px;
+    min-width: 150px;
+    box-shadow: 0 4px 6px rgb(238, 238, 238);
+}
+
+.dropdown-item {
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(6, 6, 6);
+    display: block;
+}
+
+.dropdown-item:hover {
+    background-color: #17b040;  /* Ganti warna saat hover */
+}
+footer {
+    text-align: center;
+    font-size: 14px;
+    color: #ffffff;
+    padding: 10px 0;
+    background-color: #0d5c22;
+}
